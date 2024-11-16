@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 26px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: hwb(180 3% 92%); /* Placeholder color */
+}
+
+button {
+    background-color: #0dace0; /* Button background color */
+    color: white;
+    padding: 26px 28px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(167, 94%, 27%); /* Darker blue on hover */
+}
